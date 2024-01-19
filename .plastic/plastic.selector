@@ -1,0 +1,4 @@
+repository "Camp_DFT@wechat_os_qy0zasmy8uncbtj2mnqlaeeda@cloud.cn"
+  path "/"
+    br "/main"
+    co "/main"
