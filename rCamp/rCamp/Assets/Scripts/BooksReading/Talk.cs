@@ -10,6 +10,11 @@ public class Talk : MonoBehaviour
     private int bookNumber;
     private int pageNumber;
     //换书
+    private void Start()
+    {
+        pageNumber = 1;
+        pageChange();
+    }
     public void bookChange()
     {
         bookNumber = TalkSystem.bookNumber;
@@ -28,7 +33,15 @@ public class Talk : MonoBehaviour
         }
         if (pageNumber == 3)
         {
-            textMeshPro.text = "TestTestTestTestTestTestTestTestTestTestTest";
+            textMeshPro.text = "这行用来演示一下如果这个玩意太长了他会有一个自动适应的换行功能";
+        }
+        if (pageNumber == 4)
+        {
+            textMeshPro.text = "Page4";
+        }
+        if (pageNumber == 5)
+        {
+            textMeshPro.text = "Page5";
         }
     }
 }
