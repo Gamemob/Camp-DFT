@@ -1,0 +1,1319 @@
+fileFormatVersion: 2
+guid: 98e5f485eb2bef24c9fac29abe2b7dec
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: b2a9591990af98743ba3ff7cf1000886, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 1
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 1
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  spriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+    spritePosition: {x: 0, y: 0}
+  mosaicSpriteImportData: []
+  rigSpriteImportData:
+  - name: left_arrow
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3323
+      y: 624
+      width: 111
+      height: 107
+    spriteID: 7ded70d05b42771468d394df6b510a5b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3300, y: 110}
+    spritePosition: {x: 23, y: 514}
+  - name: right_arrow
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3662
+      y: 628
+      width: 111
+      height: 106
+    spriteID: db5589d73190c0c43bf35d074adf937f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2271, y: 95}
+    spritePosition: {x: 1391, y: 533}
+  - name: UI_decoration
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 1920
+      height: 1080
+    spriteID: 8b28bb7a4cd787a4484c71868c2ce376
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+    spritePosition: {x: 0, y: 0}
+  - name: red1_clue_4
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3976
+      y: 503
+      width: 62
+      height: 68
+    spriteID: 7e78354c26314184cb326e91e88b62a7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3306, y: 174}
+    spritePosition: {x: 670, y: 329}
+  - name: red1_clue_3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3321
+      y: 1236
+      width: 158
+      height: 311
+    spriteID: cca1d4ce2e4aeac42be239878830e38a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2743, y: 1000}
+    spritePosition: {x: 578, y: 236}
+  - name: red1_npc_1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3882
+      y: 1232
+      width: 184
+      height: 326
+    spriteID: bb8bd680e105ff24f8f317017947b1a6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2894, y: 1001}
+    spritePosition: {x: 988, y: 231}
+  - name: red1_npc_2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1619
+      y: 2968
+      width: 221
+      height: 393
+    spriteID: 952c30e752af75849a653ed8e9984efa
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1411, y: 2738}
+    spritePosition: {x: 208, y: 230}
+  - name: red1_npc_3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3323
+      y: 420
+      width: 148
+      height: 196
+    spriteID: 8e8781bc43f1d5e4aa9f1fa586688664
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2830, y: -61}
+    spritePosition: {x: 493, y: 481}
+  - name: red1_clue_5
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3846
+      y: 645
+      width: 67
+      height: 118
+    spriteID: 5075b905e2f31e241a6f6e89d62d66b5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3704, y: 68}
+    spritePosition: {x: 142, y: 577}
+  - name: red1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1932
+      y: 1575
+      width: 1379
+      height: 776
+    spriteID: 87b4847648334fd408bb89abbb7b01d1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1855, y: 1401}
+    spritePosition: {x: 77, y: 174}
+  - name: red2_clue_6
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3321
+      y: 790
+      width: 179
+      height: 438
+    spriteID: ccad7fadec067ec48983b137d4a1e023
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2992, y: 557}
+    spritePosition: {x: 329, y: 233}
+  - name: red2_npc
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3319
+      y: 1575
+      width: 176
+      height: 438
+    spriteID: 3b44cd61553d76c4c8a5603e658c1f6b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2793, y: 1339}
+    spritePosition: {x: 526, y: 236}
+  - name: red2_xhm
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3921
+      y: 2021
+      width: 158
+      height: 312
+    spriteID: 866a807b5f4959f4480dc55ca752502d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3006, y: 1775}
+    spritePosition: {x: 915, y: 246}
+  - name: red2_clue_8
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3846
+      y: 447
+      width: 91
+      height: 101
+    spriteID: 853759ed40fba7449b6001f66c265092
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3058, y: -105}
+    spritePosition: {x: 788, y: 552}
+  - name: red2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1932
+      y: 4
+      width: 1383
+      height: 778
+    spriteID: 5730d571db98f7f4ca793974f5e5c159
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1854, y: -169}
+    spritePosition: {x: 78, y: 173}
+  - name: red3_hunter
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3508
+      y: 790
+      width: 179
+      height: 438
+    spriteID: 001ab30d01a92ba46b3623db027400d2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2952, y: 507}
+    spritePosition: {x: 556, y: 283}
+  - name: red3_xhm
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3508
+      y: 1236
+      width: 158
+      height: 311
+    spriteID: 3047a876b3b3f5a4fa2fd7123ed410f7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2669, y: 948}
+    spritePosition: {x: 839, y: 288}
+  - name: red3_clue_9
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3662
+      y: 742
+      width: 50
+      height: 31
+    spriteID: 1abc1ea4e6d2f4749b7905a908a268b2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2327, y: 474}
+    spritePosition: {x: 1335, y: 268}
+  - name: red3_clue_9
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3976
+      y: 4
+      width: 97
+      height: 405
+    spriteID: 4bc94ded15d99e94f8d37406d4f4cf07
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2744, y: -403}
+    spritePosition: {x: 1232, y: 407}
+  - name: red3_clue_9
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3781
+      y: 628
+      width: 44
+      height: 140
+    spriteID: a6907103ce637264fbf0d34fbdcaa639
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3510, y: 131}
+    spritePosition: {x: 271, y: 497}
+  - name: red3_clue_9
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3976
+      y: 417
+      width: 68
+      height: 78
+    spriteID: 42ce68dbb20fff9439d656857e499a32
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3524, y: 118}
+    spritePosition: {x: 452, y: 299}
+  - name: red3_clue_9
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1399
+      y: 3497
+      width: 158
+      height: 210
+    spriteID: 94a28b25fef4d4c43b28c4bfed259065
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 705, y: 3319}
+    spritePosition: {x: 694, y: 178}
+  - name: red4_clue_9
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 3756
+      width: 868
+      height: 138
+    spriteID: 07ae23b53936377419ba59909bc94640
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: -379, y: 3477}
+    spritePosition: {x: 383, y: 279}
+  - name: red3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1932
+      y: 790
+      width: 1381
+      height: 777
+    spriteID: 570917526561a3544ab4b81d5af06ca2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1859, y: 612}
+    spritePosition: {x: 73, y: 178}
+  - name: red4_hunter
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3695
+      y: 790
+      width: 179
+      height: 438
+    spriteID: 0408b7c90e628e64f81cc3d3efb3a065
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2876, y: 566}
+    spritePosition: {x: 819, y: 224}
+  - name: red4_hunterbleed
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3882
+      y: 790
+      width: 178
+      height: 434
+    spriteID: be03a6da5b3275b45827776333b3af8c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3065, y: 564}
+    spritePosition: {x: 817, y: 226}
+  - name: red4_wolf
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3662
+      y: 4
+      width: 306
+      height: 435
+    spriteID: 4c99b8530970fd84794b4f87dac28d71
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2791, y: -237}
+    spritePosition: {x: 871, y: 241}
+  - name: red4_xhm
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3695
+      y: 1236
+      width: 158
+      height: 309
+    spriteID: 1351499ff746a944bb7c003b75d3378b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3316, y: 984}
+    spritePosition: {x: 379, y: 252}
+  - name: red4_grandma
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1619
+      y: 3369
+      width: 152
+      height: 311
+    spriteID: 103eaa97a4ea0304e86a53f7085b18e2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 431, y: 3122}
+    spritePosition: {x: 1188, y: 247}
+  - name: red4_clue_11
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3846
+      y: 556
+      width: 101
+      height: 81
+    spriteID: a30b6a87b7853954e99469d96b49131c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3196, y: -224}
+    spritePosition: {x: 650, y: 780}
+  - name: red4_clue_12
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3319
+      y: 2021
+      width: 594
+      height: 108
+    spriteID: 2da309ad25aa7a948bc587caa995ef79
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2655, y: 1750}
+    spritePosition: {x: 664, y: 271}
+  - name: red4_clue_13
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1399
+      y: 2180
+      width: 377
+      height: 465
+    spriteID: f3a0f132716ae5247a3bfcaac4b514f2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1004, y: 1862}
+    spritePosition: {x: 395, y: 318}
+  - name: red4
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 2180
+      width: 1387
+      height: 780
+    spriteID: b6adfce54db21d74e9e2847a12e026af
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: -71, y: 2009}
+    spritePosition: {x: 75, y: 171}
+  - name: red5_clue_14
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3662
+      y: 447
+      width: 176
+      height: 173
+    spriteID: 5086d0c88b60d7d489d1805738c122a2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2479, y: -315}
+    spritePosition: {x: 1183, y: 762}
+  - name: red5_clue_15
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1399
+      y: 2968
+      width: 212
+      height: 521
+    spriteID: 3e05a3d88954cb049aff364efef16564
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1082, y: 2714}
+    spritePosition: {x: 317, y: 254}
+  - name: red5_clue_13
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3323
+      y: 4
+      width: 331
+      height: 408
+    spriteID: 04bc0884a92241d49897c2046964c63a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2842, y: -354}
+    spritePosition: {x: 481, y: 358}
+  - name: red5
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 2968
+      width: 1387
+      height: 780
+    spriteID: e7a7a64b2b0ee344fa66fc3be3b45c0b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: -71, y: 2797}
+    spritePosition: {x: 75, y: 171}
+  - name: "\u80CC\u666F"
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1092
+      width: 1920
+      height: 1080
+    spriteID: 3dec4f014505de146ad3c5ee5010d598
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1092}
+    spritePosition: {x: 0, y: 0}
+  characterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+    pivot: {x: 0, y: 0}
+    boneReadOnly: 0
+  sharedRigSpriteImportData: []
+  sharedRigCharacterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+    pivot: {x: 0, y: 0}
+    boneReadOnly: 0
+  platformSettings: []
+  mosaicLayers: 1
+  characterMode: 1
+  documentPivot: {x: 0, y: 0}
+  documentAlignment: 7
+  importHiddenLayers: 0
+  layerMappingOption: 2
+  generatePhysicsShape: 0
+  paperDollMode: 0
+  keepDupilcateSpriteName: 1
+  skeletonAssetReferenceID: 
+  padding: 4
+  spriteSizeExpand: 0
+  spriteCategoryList:
+    categories: []
+  spritePackingTag: 
+  resliceFromLayer: 0
+  mosaicPSDLayers: []
+  rigPSDLayers:
+  - name: left_arrow
+    spriteName: left_arrow
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 7ded70d05b42771468d394df6b510a5b
+    layerID: 38
+    mosaicPosition: {x: 3323, y: 624}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: right_arrow
+    spriteName: right_arrow
+    isGroup: 0
+    parentIndex: -1
+    spriteID: db5589d73190c0c43bf35d074adf937f
+    layerID: 37
+    mosaicPosition: {x: 3662, y: 628}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: UI_decoration
+    spriteName: UI_decoration
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 8b28bb7a4cd787a4484c71868c2ce376
+    layerID: 36
+    mosaicPosition: {x: 4, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: red1_clue_4
+    spriteName: red1_clue_4
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 7e78354c26314184cb326e91e88b62a7
+    layerID: 35
+    mosaicPosition: {x: 3976, y: 503}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: red1_clue_3
+    spriteName: red1_clue_3
+    isGroup: 0
+    parentIndex: -1
+    spriteID: cca1d4ce2e4aeac42be239878830e38a
+    layerID: 34
+    mosaicPosition: {x: 3321, y: 1236}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: red1_npc_1
+    spriteName: red1_npc_1
+    isGroup: 0
+    parentIndex: -1
+    spriteID: bb8bd680e105ff24f8f317017947b1a6
+    layerID: 33
+    mosaicPosition: {x: 3882, y: 1232}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: red1_npc_2
+    spriteName: red1_npc_2
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 952c30e752af75849a653ed8e9984efa
+    layerID: 32
+    mosaicPosition: {x: 1619, y: 2968}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: red1_npc_3
+    spriteName: red1_npc_3
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 8e8781bc43f1d5e4aa9f1fa586688664
+    layerID: 31
+    mosaicPosition: {x: 3323, y: 420}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: red1_clue_5
+    spriteName: red1_clue_5
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 5075b905e2f31e241a6f6e89d62d66b5
+    layerID: 30
+    mosaicPosition: {x: 3846, y: 645}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: red1
+    spriteName: red1
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 87b4847648334fd408bb89abbb7b01d1
+    layerID: 29
+    mosaicPosition: {x: 1932, y: 1575}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: red2_clue_6
+    spriteName: red2_clue_6
+    isGroup: 0
+    parentIndex: -1
+    spriteID: ccad7fadec067ec48983b137d4a1e023
+    layerID: 28
+    mosaicPosition: {x: 3321, y: 790}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: red2_npc
+    spriteName: red2_npc
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 3b44cd61553d76c4c8a5603e658c1f6b
+    layerID: 27
+    mosaicPosition: {x: 3319, y: 1575}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: red2_xhm
+    spriteName: red2_xhm
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 866a807b5f4959f4480dc55ca752502d
+    layerID: 26
+    mosaicPosition: {x: 3921, y: 2021}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: red2_clue_8
+    spriteName: red2_clue_8
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 853759ed40fba7449b6001f66c265092
+    layerID: 25
+    mosaicPosition: {x: 3846, y: 447}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: red2
+    spriteName: red2
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 5730d571db98f7f4ca793974f5e5c159
+    layerID: 24
+    mosaicPosition: {x: 1932, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: red3_hunter
+    spriteName: red3_hunter
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 001ab30d01a92ba46b3623db027400d2
+    layerID: 23
+    mosaicPosition: {x: 3508, y: 790}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: red3_xhm
+    spriteName: red3_xhm
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 3047a876b3b3f5a4fa2fd7123ed410f7
+    layerID: 22
+    mosaicPosition: {x: 3508, y: 1236}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: red3_clue_9
+    spriteName: red3_clue_9
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 1abc1ea4e6d2f4749b7905a908a268b2
+    layerID: 21
+    mosaicPosition: {x: 3662, y: 742}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: red3_clue_9
+    spriteName: red3_clue_9
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 4bc94ded15d99e94f8d37406d4f4cf07
+    layerID: 20
+    mosaicPosition: {x: 3976, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: red3_clue_9
+    spriteName: red3_clue_9
+    isGroup: 0
+    parentIndex: -1
+    spriteID: a6907103ce637264fbf0d34fbdcaa639
+    layerID: 19
+    mosaicPosition: {x: 3781, y: 628}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: red3_clue_9
+    spriteName: red3_clue_9
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 42ce68dbb20fff9439d656857e499a32
+    layerID: 18
+    mosaicPosition: {x: 3976, y: 417}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: red3_clue_9
+    spriteName: red3_clue_9
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 94a28b25fef4d4c43b28c4bfed259065
+    layerID: 17
+    mosaicPosition: {x: 1399, y: 3497}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: red4_clue_9
+    spriteName: red4_clue_9
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 07ae23b53936377419ba59909bc94640
+    layerID: 16
+    mosaicPosition: {x: 4, y: 3756}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: red3
+    spriteName: red3
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 570917526561a3544ab4b81d5af06ca2
+    layerID: 15
+    mosaicPosition: {x: 1932, y: 790}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: red4_hunter
+    spriteName: red4_hunter
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 0408b7c90e628e64f81cc3d3efb3a065
+    layerID: 14
+    mosaicPosition: {x: 3695, y: 790}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: red4_hunterbleed
+    spriteName: red4_hunterbleed
+    isGroup: 0
+    parentIndex: -1
+    spriteID: be03a6da5b3275b45827776333b3af8c
+    layerID: 13
+    mosaicPosition: {x: 3882, y: 790}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: red4_wolf
+    spriteName: red4_wolf
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 4c99b8530970fd84794b4f87dac28d71
+    layerID: 12
+    mosaicPosition: {x: 3662, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: red4_xhm
+    spriteName: red4_xhm
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 1351499ff746a944bb7c003b75d3378b
+    layerID: 11
+    mosaicPosition: {x: 3695, y: 1236}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: red4_grandma
+    spriteName: red4_grandma
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 103eaa97a4ea0304e86a53f7085b18e2
+    layerID: 10
+    mosaicPosition: {x: 1619, y: 3369}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: red4_clue_11
+    spriteName: red4_clue_11
+    isGroup: 0
+    parentIndex: -1
+    spriteID: a30b6a87b7853954e99469d96b49131c
+    layerID: 9
+    mosaicPosition: {x: 3846, y: 556}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: red4_clue_12
+    spriteName: red4_clue_12
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 2da309ad25aa7a948bc587caa995ef79
+    layerID: 8
+    mosaicPosition: {x: 3319, y: 2021}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: red4_clue_13
+    spriteName: red4_clue_13
+    isGroup: 0
+    parentIndex: -1
+    spriteID: f3a0f132716ae5247a3bfcaac4b514f2
+    layerID: 7
+    mosaicPosition: {x: 1399, y: 2180}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: red4
+    spriteName: red4
+    isGroup: 0
+    parentIndex: -1
+    spriteID: b6adfce54db21d74e9e2847a12e026af
+    layerID: 6
+    mosaicPosition: {x: 4, y: 2180}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: red5_clue_14
+    spriteName: red5_clue_14
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 5086d0c88b60d7d489d1805738c122a2
+    layerID: 5
+    mosaicPosition: {x: 3662, y: 447}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: red5_clue_15
+    spriteName: red5_clue_15
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 3e05a3d88954cb049aff364efef16564
+    layerID: 4
+    mosaicPosition: {x: 1399, y: 2968}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: red5_clue_13
+    spriteName: red5_clue_13
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 04bc0884a92241d49897c2046964c63a
+    layerID: 3
+    mosaicPosition: {x: 3323, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: red5
+    spriteName: red5
+    isGroup: 0
+    parentIndex: -1
+    spriteID: e7a7a64b2b0ee344fa66fc3be3b45c0b
+    layerID: 2
+    mosaicPosition: {x: 4, y: 2968}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: "\u80CC\u666F"
+    spriteName: "\u80CC\u666F"
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 3dec4f014505de146ad3c5ee5010d598
+    layerID: 1
+    mosaicPosition: {x: 4, y: 1092}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  sharedRigPSDLayers: []
+  pSDLayerImportSetting: []
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  spriteSizeExpandChanged: 0
+  generateGOHierarchy: 0
+  textureAssetName: 
+  prefabAssetName: 
+  spriteLibAssetName: 
+  skeletonAssetName: 
+  secondarySpriteTextures: []
