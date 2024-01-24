@@ -5,6 +5,7 @@ using UnityEngine;
 public class TestCheck : MonoBehaviour
 {
     public static int wrongNumer = 0;
+    public static bool pick = false;
     public GameObject passedText;
     public GameObject passedButton;
     public GameObject wrongText;
