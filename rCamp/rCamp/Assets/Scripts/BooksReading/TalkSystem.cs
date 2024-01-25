@@ -15,6 +15,12 @@ public class TalkSystem : MonoBehaviour
     public GameObject page3;
     public GameObject page4;
     public GameObject page5;
+    [Header("ÏßË÷Ò³")]
+    public GameObject cluePage1;
+    public GameObject cluePage2;
+    public GameObject cluePage3;
+    public GameObject cluePage4;
+    public GameObject cluePage5;
     [Header("²âÊÔ")]
     public GameObject test;
     private void Start()
@@ -29,21 +35,32 @@ public class TalkSystem : MonoBehaviour
     }
     public void pageUp()
     {
-        if (pageNumber >= 1)
+        if(Talk.dialogNumber >= 1)
         {
-            pageNumber -= 1;
+            if (Talk.firstWord)
+            {
+                if(pageNumber >= 1)
+                {
+                    pageNumber -= 1;
+                }
+            }
+            Talk.dialogNumber -= 1;
         }
     }
     public void pageDown()
     {
-        if (pageNumber == bookMaxPages)
+        if (Talk.lastWord)
         {
-            test.active = true;
+            if (pageNumber == bookMaxPages)
+            {
+                test.active = true;
+            }
+            if (pageNumber < bookMaxPages)
+            {
+                pageNumber += 1;
+            }
         }
-        if (pageNumber < bookMaxPages)
-        {
-            pageNumber += 1;
-        }
+        Talk.dialogNumber += 1;
     }
     public void pageChange()
     {
@@ -51,29 +68,42 @@ public class TalkSystem : MonoBehaviour
         {
             page2.active = false;
             page1.active = true;
+            cluePage1.SetActive(true);
+            cluePage2.SetActive(false);
         }
         if (pageNumber == 2)
         {
             page1.active = false;
             page2.active = true;
             page3.active = false;
+            cluePage1.SetActive(false);
+            cluePage2.SetActive(true);
+            cluePage3.SetActive(false);
         }
         if (pageNumber == 3)
         {
             page2.active = false;
             page3.active = true;
             page4.active = false;
+            cluePage2.SetActive(false);
+            cluePage3.SetActive(true);
+            cluePage4.SetActive(false);
         }
         if (pageNumber == 4)
         {
             page3.active = false;
             page4.active = true;
             page5.active = false;
+            cluePage3.SetActive(false);
+            cluePage4.SetActive(true);
+            cluePage5.SetActive(false);
         }
         if (pageNumber == 5)
         {
             page4.active = false;
             page5.active = true;
+            cluePage4.SetActive(false);
+            cluePage5.SetActive(true);
         }
     }
 }

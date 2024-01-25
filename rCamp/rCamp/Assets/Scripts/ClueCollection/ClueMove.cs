@@ -4,14 +4,17 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 
 public class ClueMove : MonoBehaviour
-{
-    public GameObject Canvas;
-    private bool picked; //是否被拿起
-    public bool used; //是否在框里
+{ 
+    private static bool picked; //是否被拿起
+    public static bool used; //是否在框里
+    public bool whysomanybugs;
     private Vector2 startPostion;
     private Vector2 targetPostion;
     public void Pick()
     {
+        if (whysomanybugs)
+        {
+
         if(picked == false)
         {
             if(used == false)
@@ -31,6 +34,7 @@ public class ClueMove : MonoBehaviour
                 transform.position = targetPostion;
             }
             picked = false;
+        }
         }
         
     }
@@ -56,12 +60,17 @@ public class ClueMove : MonoBehaviour
             }
         }
     }
-    private void OnTriggerExit2D(Collider2D collision)
+
+ 
+
+
+    public void setTrue()
     {
-        if (collision.CompareTag("Clue"))
-        {
-            used = false;
-        }
+        whysomanybugs = true;
+    }
+    public void setFalse()
+    {
+        whysomanybugs = false;
     }
 }
 

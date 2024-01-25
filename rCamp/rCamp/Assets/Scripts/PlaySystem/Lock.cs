@@ -8,7 +8,7 @@ public class Lock : MonoBehaviour
 {
     public GameObject LevelPanelsList;//总关卡
     Button[] LevelPanel;//关卡
-    int UnlockedLevel;//解锁的关卡数量
+    public static int UnlockedLevel;//解锁的关卡数量
     int CurrentLevel;//当前关卡的数目
     public int MaxLevel;//最大关卡数
     // Start is called before the first frame update

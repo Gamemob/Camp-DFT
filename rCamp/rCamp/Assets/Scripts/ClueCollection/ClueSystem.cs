@@ -27,13 +27,13 @@ public class ClueSystem : MonoBehaviour
     {
         maxPage = 1;
         clueSequence = new int[30];
-        sequenceNumber = 1;
+        sequenceNumber = 0;
         cluePageNumber = 1;
     }
     public void printGlue()
     {
         bool used = false;
-        for (int i = 1; i <= sequenceNumber; i++)
+        for (int i = 0; i <= sequenceNumber; i++)
         {
             if (clueNumber == clueSequence[i])
             {
